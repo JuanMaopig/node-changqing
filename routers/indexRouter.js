@@ -50,10 +50,12 @@ router.post('/comfirm.html',orderController.transferComfirm);
 router.get('/booking/order.html',orderController.transferUpOrder);
 
 
-router.get('/changqing/*.json',function (req,res,next) {
+router.get('/changqin/*.json',function (req,res,next) {
+
     let url=req.url;
-    url=url.substr(11);
+    url=url.substr(10);
     url=url.substring(0,url.indexOf('.json'));
+    console.log(url)
     if(manage[url]){
         manage[url](req,res);
     }else {

@@ -1,14 +1,34 @@
 const con=require('../config/dbConfig');
 const manageDao={
-    getConsume(){
+    /***
+     * start number 起始下标
+     * length number 查询数量
+     */
+    getConsume(start,length){
         return new Promise((resolve, reject) => {
-            let sql="select *from room_consume";
+            let sql="";
             let arr=[];
+            if(start==undefined || length==undefined){
+                 sql="select *from room_consume";
+                 arr=[];
+            }else {
+                sql="select *from room_consume limit ?,?";
+                arr=[start,length];
+            }
+            console.log(sql);
             con.connect(sql,arr,function (err,result) {
                 if(err){
-                    reject(err);
+                    //查询出错,返回出错信息
+                    reject({status:"err",err});
                 }else {
-                    resolve(result);
+                    if(result.length>0){
+                        //查询成功，有记录state:1返回记录
+                        resolve({status:"ok",state:1,result});
+                    }else {
+                        //查询成功，无记录，state:0
+                        resolve({status:"ok",state:0,result,msg:"无记录"})
+                    }
+
                 }
             })
         })
@@ -60,6 +80,18 @@ const manageDao={
                         activeConsumeId.push(value.active_consume_id);
                     }
                     resolve(activeConsumeId);
+                }
+            })
+        })
+    },
+    getCountConsume(){
+        return new Promise((resolve, reject) => {
+            let sql="select count(*) as count from room_consume"
+            con.connect(sql,[],(err,result)=>{
+                if(err){
+                    reject({status:"err",err})
+                }else {
+                    resolve(result[0].count);
                 }
             })
         })

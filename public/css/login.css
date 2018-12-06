@@ -1,7 +1,7 @@
 body{
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
-    height: 786px;
+    height: auto;
     background-size:100% 150%;
     background-repeat: no-repeat;
     background-image:url("../images/jobOpportunity/logon/tp3.jpg");
