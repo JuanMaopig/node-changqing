@@ -52,7 +52,7 @@ app.use(express.static(__dirname+"/public"));//__dirname指向当前文件根目
 app.use(express.static(__dirname+"/public/html"));
 app.use(express.static(__dirname+"/public/css/booking"));//__dirname指向当前文件根目录
 app.use(express.static(__dirname+"/public/html/booking"));
-app.set("port",9999);//设置端口
-app.listen(9999,()=>{
+app.set("port",8089);//设置端口
+app.listen(8089,()=>{
     console.log("服务器已启动"+app.get("port"));
 });

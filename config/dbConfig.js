@@ -4,8 +4,8 @@ const dbpool={
     config:{
         host:"localhost",//主机地址
         port:"3306",//端口号
-        user:"root",
-        password:"root",
+        user:"calvin",
+        password:"175747",
         database:"cq"
     },
     create(){
