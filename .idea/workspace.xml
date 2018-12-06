@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="63203dcf-9b43-4c96-a053-fac45fd86e7a" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/user/Orderdetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/user/changePW.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/user/pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/html/user/Orderdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/html/user/changePW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/html/user/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< .mine
+||||||| .r216
+      <change beforePath="$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/about-our.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/about-our.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/public/css/castle/castle-private.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/castle/castle-private.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/stables/activities-more.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stables/activities-more.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-private.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-private.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/activities-more.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/handwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/handwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/landrover.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/landrover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/nature_handwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/nature_handwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/painting.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/painting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/projectmesuem.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/projectmuseum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/swimming.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/swimming.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/watercure.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/watercure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/white_tea.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/white_tea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/yoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/yoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-activities.html" afterDir="false" />
+>>>>>>> .r268
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="landrover.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/landrover.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stables-activities.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/stables-activities.html">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+||||||| .r216
+            <state relative-caret-position="30">
+              <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/media.html">
+          <provider selected="true" editor-type-id="text-editor">
+=======
+            <state relative-caret-position="183">
+              <caret line="216" column="80" lean-forward="true" selection-start-line="216" selection-start-column="80" selection-end-line="216" selection-end-column="80" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="castle-private.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/castle/castle-private.html">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> .r268
+            <state relative-caret-position="181">
+              <caret line="12" column="70" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="castle-private.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/castle/castle-private.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="horse_riding.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="141" column="11" lean-forward="true" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hiking.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="happygarden.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+            <state relative-caret-position="296">
+              <caret line="408" column="22" selection-start-line="408" selection-start-column="22" selection-end-line="408" selection-end-column="22" />
+||||||| .r216
+            <state relative-caret-position="206">
+              <caret line="405" column="22" selection-start-line="403" selection-start-column="16" selection-end-line="405" selection-end-column="22" />
+=======
+            <state relative-caret-position="85">
+              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+>>>>>>> .r268
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< .mine
+      <file leaf-file-name="changePW.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/user/changePW.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/footer/footer2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3240">
+              <caret line="108" column="56" lean-forward="true" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+||||||| .r216
+=======
+      <file leaf-file-name="handwork.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/handwork.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fishing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/fishing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activitycenter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="146" column="47" lean-forward="true" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> .r268
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+<<<<<<< .mine
+||||||| .r216
+        <option value="CSS File" />
+=======
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+>>>>>>> .r268
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>odd</find>
+      <find>src</find>
+      <find>col-4</find>
+      <find>url</find>
+      <find>探</find>
+      <find>裸心</find>
+      <find>icon-right</find>
+      <find>logo</find>
+      <find>bg-</find>
+      <find>hover</find>
+      <find>button-p</find>
+      <find>button-gray</find>
+      <find>spa</find>
+      <find>button</find>
+      <find>ri</find>
+      <find>s</find>
+      <find>contact</find>
+      <find>prim</find>
+      <find>primary</find>
+      <find>wedd</find>
+      <find>navigator</find>
+      <find>icon-logo</find>
+      <find>subNav</find>
+      <find>icon-lo</find>
+      <find>icon-</find>
+      <find>mail</find>
+      <find>body</find>
+      <find>cont</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/css/common.css" />
+        <option value="$PROJECT_DIR$/public/html/stables/stables-gallery.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/corporate-activities.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/do.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/eat.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/events.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/explore-naked-stables.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/relax.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/sleep.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/the_stables.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery/wedding.html" />
+        <option value="$PROJECT_DIR$/public/html/contact.html" />
+        <option value="$PROJECT_DIR$/public/html/media.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/gallery.html" />
+        <option value="$PROJECT_DIR$/public/html/about-our-resorts/design.html" />
+        <option value="$PROJECT_DIR$/public/html/about-our.html" />
+        <option value="$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html" />
+<<<<<<< .mine
+        <option value="$PROJECT_DIR$/public/html/user/information.html" />
+        <option value="$PROJECT_DIR$/public/html/user/pay.html" />
+        <option value="$PROJECT_DIR$/public/css/user/pay.css" />
+        <option value="$PROJECT_DIR$/public/css/user/Orderdetail.css" />
+        <option value="$PROJECT_DIR$/public/html/user/Orderdetail.html" />
+        <option value="$PROJECT_DIR$/public/css/user/changePW.css" />
+        <option value="$PROJECT_DIR$/public/html/user/changePW.html" />
+||||||| .r216
+=======
+        <option value="$PROJECT_DIR$/public/html/stables/stables-ac-comp.html" />
+        <option value="$PROJECT_DIR$/public/html/castle/castle.html" />
+        <option value="$PROJECT_DIR$/public/css/user/nav1.css" />
+        <option value="$PROJECT_DIR$/public/html/stables/stables-contact.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities-more.html" />
+        <option value="$PROJECT_DIR$/public/css/footer.css" />
+        <option value="$PROJECT_DIR$/public/html/stables/painting.html" />
+        <option value="$PROJECT_DIR$/public/css/castle/castle.css" />
+        <option value="$PROJECT_DIR$/public/css/nav2.css" />
+        <option value="$PROJECT_DIR$/public/css/nav.css" />
+        <option value="$PROJECT_DIR$/public/css/sail/sail-nav.css" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/walking.html" />
+        <option value="$PROJECT_DIR$/public/css/castle/c_footer.css" />
+        <option value="$PROJECT_DIR$/public/css/stables/s_footer.css" />
+        <option value="$PROJECT_DIR$/public/css/stables/stables.css" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/projectmesuem.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/stables-activities.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/yoga.html" />
+        <option value="$PROJECT_DIR$/public/css/stables/activities-more.css" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/white_tea.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/watercure.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/swimming.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/projectmuseum.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/painting.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/nature_handwork.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/landrover.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/handwork.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/fishing.html" />
+        <option value="$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html" />
+        <option value="$PROJECT_DIR$/public/html/castle/castle-private.html" />
+        <option value="$PROJECT_DIR$/public/css/castle/castle-private.css" />
+>>>>>>> .r268
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+<<<<<<< .mine
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-41" />
+    <option name="y" value="110" />
+    <option name="width" value="1259" />
+    <option name="height" value="546" />
+||||||| .r216
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="26" />
+    <option name="y" value="164" />
+    <option name="width" value="1259" />
+    <option name="height" value="546" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
+    <option name="y" value="316" />
+    <option name="width" value="1940" />
+    <option name="height" value="838" />
+>>>>>>> .r268
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+    <ConfirmationsSetting value="2" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .mine
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+||||||| .r216
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="about-our-resorts" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="castle" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .r268
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="stables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .mine
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+||||||| .r216
+              <item name="jobOpportunity" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="castle" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .r268
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="castle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .mine
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+||||||| .r216
+              <item name="stables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="stables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .r268
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sail" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Skrillex\Desktop\project3\public\html\stables\activities_more" />
+      <recent name="C:\Users\Calvin\Desktop\project3\public\html\footer\footer" />
+      <recent name="C:\Users\Calvin\Desktop\project3\public\html\footer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Skrillex\Desktop\project3\public\css\stables" />
+      <recent name="C:\Users\Skrillex\Desktop\project3\public\html\stables" />
+      <recent name="C:\Users\Calvin\Desktop\project3\public\html\footer" />
+      <recent name="C:\Users\GXA\Desktop\project3\public\images\home" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="片刻之前" ActionInfo="更新(_U)">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="从服务器更新" />
+        <option name="myStatusName" value="在服务器上改变的" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="更新的" />
+          <option name="myStatusName" value="更改的" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\css\castle\castle-room.css</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-contact.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-dining.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-off.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-private.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-room.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-story.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="创建的" />
+          <option name="myStatusName" value="创建的" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\css\castle\off-qu.css</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\css\castle\castle-activity.css</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-activity.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-gallery.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\room-shehua.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\off-qu.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\images\stables\stables-activities\04_150515.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="删除的" />
+          <option name="myStatusName" value="删除的" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\html\castle\castle-shehua.html</PATH>
+          <PATH vcs="svn" revision="245">C:\Users\Skrillex\Desktop\project3\public\images\stables\stables-activities\04_150515_+1.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="恢复的" />
+          <option name="myStatusName" value="将被恢复" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="修改的" />
+        <option name="myStatusName" value="修改的" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="跳过的" />
+        <option name="myStatusName" value="跳过的" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="合并冲突" />
+        <option name="myStatusName" value="将被合并冲突" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="已合并树冲突" />
+        <option name="myStatusName" value="已合并树冲突" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="合并属性冲突" />
+        <option name="myStatusName" value="将被合并属性冲突" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="合并的" />
+        <option name="myStatusName" value="将被合并" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="不在仓库" />
+        <option name="myStatusName" value="不在仓库" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="本地添加的" />
+        <option name="myStatusName" value="本地添加的" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="本地移除的" />
+        <option name="myStatusName" value="本地移除的" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="交换的" />
+        <option name="myStatusName" value="交换的" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Skrillex\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Skrillex\Desktop\project3" />
+          <option name="myCopyRoot" value="C:\Users\Skrillex\Desktop\project3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Skrillex\Desktop\project3" />
+          <option name="myCopyRoot" value="C:\Users\Skrillex\Desktop\project3" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63203dcf-9b43-4c96-a053-fac45fd86e7a" name="默认" comment="" />
+      <created>1540881566973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540881566973</updated>
+      <workItem from="1540881569760" duration="70284000" />
+      <workItem from="1541119006951" duration="491000" />
+      <workItem from="1541119627759" duration="713000" />
+      <workItem from="1541120558350" duration="385000" />
+      <workItem from="1541120988352" duration="664000" />
+      <workItem from="1541121712241" duration="356000" />
+      <workItem from="1541122126777" duration="1826000" />
+      <workItem from="1541124447101" duration="576000" />
+      <workItem from="1541125081501" duration="1053000" />
+      <workItem from="1541128187396" duration="1834000" />
+      <workItem from="1541139431655" duration="3094000" />
+      <workItem from="1541145447396" duration="85000" />
+<<<<<<< .mine
+      <workItem from="1541314074849" duration="1351000" />
+      <workItem from="1541317064967" duration="35000" />
+      <workItem from="1541317160668" duration="2638000" />
+      <workItem from="1541376014206" duration="5380000" />
+||||||| .r216
+=======
+      <workItem from="1541303762163" duration="26755000" />
+>>>>>>> .r268
+    </task>
+    <task id="LOCAL-00001">
+      <created>1541148728187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541148728187</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1541148910152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541148910152</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1541150249387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541150249387</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1541150582785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541150582785</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1541317211693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541317211693</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1541318898049</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541318898049</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1541321113635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541321113635</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1541329099906</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541329099906</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1541330042362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541330042362</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1541332225968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541332225968</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1541332591983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541332591983</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1541333417542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541333417542</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1541333675871</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541333675871</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1541334106741</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541334106741</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1541335830479</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1541335830479</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1541337676074</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541337676074</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< .mine
+    <option name="totallyTimeSpent" value="90765000" />
+||||||| .r216
+    <option name="totallyTimeSpent" value="81361000" />
+=======
+    <option name="totallyTimeSpent" value="110324000" />
+>>>>>>> .r268
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-78" y="392" width="1940" height="838" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23284823" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.34964028" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32791328" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25051975" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32882273" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< .mine
+    <entry file="file://$PROJECT_DIR$/public/html/footer/footer/footer.html">
+||||||| .r216
+    <entry file="file://$PROJECT_DIR$/public/html/about-our-resorts/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4110">
+          <caret line="137" column="68" selection-start-line="137" selection-start-column="65" selection-end-line="137" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15060">
+          <caret line="502" column="36" selection-start-line="502" selection-start-column="33" selection-end-line="502" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/home.html" />
+    <entry file="file://$PROJECT_DIR$/public/images/home/19_143108_nS_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/js/home.js" />
+    <entry file="file://$PROJECT_DIR$/public/css/home.css" />
+    <entry file="file://$PROJECT_DIR$/public/html/footer/footer/footer.html">
+=======
+    <entry file="file://$PROJECT_DIR$/public/html/sail/activities-more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/castle/castle-room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/sail/activities-more/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/sail/activities-more.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/activity_hero_img_w.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1531908359867.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1521429471680.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1518148723126.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1499156728339.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1498202610321.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1497410616682.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/1497409058672.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/06_111655_naked-Air-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/05_142419_1497410762252.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/05_142119_hiking.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/05_140825_yoga.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/04_150515_+1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/stables/stables-activities/04_110140_WechatIMG1146.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/footer.css">
+>>>>>>> .r268
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1151">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/stables-dining.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4180">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/castle/castle-activities/1481193318042.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/stables-gallery.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/stables-off.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/stables-contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="426" column="7" lean-forward="true" selection-start-line="426" selection-start-column="7" selection-end-line="426" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< .mine
+||||||| .r216
+    <entry file="file://$PROJECT_DIR$/public/html/footer/footer2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="138" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/public/html/castle/castle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" column="61" lean-forward="true" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#5;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#6;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> .r268
+    <entry file="file://$PROJECT_DIR$/public/css/castle/castle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="191" column="20" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/stables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#5;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#6;n#ul#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="90" column="23" lean-forward="true" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/sail/sail-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="191" column="24" lean-forward="true" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/nav2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="221" column="20" lean-forward="true" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/castle/c_footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/stables/s_footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/stables/stables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="466" column="1" lean-forward="true" selection-start-line="466" selection-start-column="1" selection-end-line="466" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/stables/activities-more.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/yoga.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/white_tea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/watercure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/swimming.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< .mine
+    <entry file="file://$PROJECT_DIR$/public/html/sail/sail.html">
+||||||| .r216
+    <entry file="file://$PROJECT_DIR$/public/html/user/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/sail/sail.html">
+=======
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/projectmuseum.html">
+>>>>>>> .r268
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/painting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/nature_handwork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="141" column="11" lean-forward="true" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/handwork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/fishing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="146" column="47" lean-forward="true" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/activities_more/landrover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/stables/stables-activities.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state relative-caret-position="4020">
+          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+||||||| .r216
+        <state relative-caret-position="30">
+          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+=======
+        <state relative-caret-position="183">
+          <caret line="216" column="80" lean-forward="true" selection-start-line="216" selection-start-column="80" selection-end-line="216" selection-end-column="80" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+>>>>>>> .r268
+        </state>
+      </provider>
+    </entry>
+<<<<<<< .mine
+    <entry file="file://$PROJECT_DIR$/public/html/user/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user/information.html" />
+    <entry file="file://$PROJECT_DIR$/public/html/footer/footer2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="108" column="56" lean-forward="true" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/user/pay.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/user/Orderdetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user/Orderdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#1;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#2;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#4;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/user/changePW.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user/changePW.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html">
+||||||| .r216
+    <entry file="file://$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html">
+=======
+    <entry file="file://$PROJECT_DIR$/public/html/castle/castle-private.html">
+>>>>>>> .r268
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state relative-caret-position="296">
+          <caret line="408" column="22" selection-start-line="408" selection-start-column="22" selection-end-line="408" selection-end-column="22" />
+||||||| .r216
+        <state relative-caret-position="206">
+          <caret line="405" column="22" selection-start-line="403" selection-start-column="16" selection-end-line="405" selection-end-column="22" />
+=======
+        <state relative-caret-position="181">
+          <caret line="12" column="70" lean-forward="true" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+>>>>>>> .r268
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/castle/castle-private.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
