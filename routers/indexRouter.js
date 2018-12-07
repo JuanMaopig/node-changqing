@@ -50,12 +50,23 @@ router.post('/comfirm.html',orderController.transferComfirm);
 router.get('/booking/order.html',orderController.transferUpOrder);
 
 
-router.get('/changqin/*.json',function (req,res,next) {
-
+router.get('/changqin/manage/*.do',function (req,res,next) {
     let url=req.url;
-    url=url.substr(10);
-    url=url.substring(0,url.indexOf('.json'));
+    url=url.substr(17);
+    url=url.substring(0,url.indexOf('.do'));
     console.log(url)
+    if(manage[url]){
+        manage[url](req,res);
+    }else {
+        next();
+    }
+    console.log(url);
+});
+router.post('/changqin/manage/*.do',function (req,res,next) {
+    let url=req.url;
+    url=url.substr(17);
+    url=url.substring(0,url.indexOf('.do'));
+    console.log(url);
     if(manage[url]){
         manage[url](req,res);
     }else {

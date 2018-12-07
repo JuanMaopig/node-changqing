@@ -17,7 +17,6 @@ const orderController={
         req.session.order.room_number=req.body.room_number;
         req.session.order.adultNum=req.body.adultNum;
         req.session.order.childNum=req.body.childNum;
-
         //入住天数---方法一：
         // if(parseInt(req.session.order.out_date.substr(8,2))-parseInt(req.session.order.in_date.substr(8,2))>0){
         //     var sum=parseInt(req.session.order.out_date.substr(8,2))-parseInt(req.session.order.in_date.substr(8,2));
@@ -207,7 +206,7 @@ const orderController={
         }
         if(req.session.order.s_allMoney>1000&&req.session.order.s_allMoney<10000){
             req.session.order.subscription=1000;
-        }
+        }0
         if(req.session.order.s_allMoney>10000){
             req.session.order.subscription=10000;
         }

@@ -95,6 +95,72 @@ const manageDao={
                 }
             })
         })
+    },
+    addConsume(params){
+        return new Promise((resolve, reject) => {
+            let sql ="insert into room_consume values (?,?,?,?)";
+            con.connect(sql,params,(err,result)=>{
+                if(err){
+                    reject({status:"err",err});
+                }else {
+                    resolve({status:"ok",state:1});
+                }
+            })
+        })
+    },
+    addConsumeActive(consume_id,active_id){
+        return new Promise((resolve, reject) => {
+            let sql= "insert into (room_consume_id,active_consume_id)" +
+                "values (?,?)";
+            con.connect(sql,[consume_id,active_id],(err,result)=>{
+                if(err){
+                    console.log(err);
+                    reject({status:"err",state:0,msg:err});
+                }else {
+                    resolve({status:"ok",state:1,msg:result})
+                }
+            })
+        })
+    },
+    queryConsumeMaxId(){
+        return new Promise((resolve, reject) => {
+            let sql="select max(room_consume_id) as id from room_consume";
+            con.connect(sql,[],(err,result)=>{
+                if(err){
+                    console.log(err);
+                    reject({status:"err",state:0,err})
+                }else {
+                    resolve(result[0].id);
+                }
+            })
+        })
+    },
+    deleteConsume(consume_id){
+        return new Promise((resolve, reject) => {
+            let sql="delete from room_consume where room_consume_id=?";
+            con.connect(sql,[consume_id],(err,result)=>{
+                if(err){
+                    console.log(err);
+                    reject({status:"err",state:0,msg:err})
+                }else {
+                    resolve({status:"ok",state:1});
+                }
+            })
+        })
+    },
+    deleteConsumeActive(consume_id){
+        return new Promise((resolve, reject) => {
+            let sql="delete from room_active_consume where room_consume_id=?";
+            con.connect(sql,[consume_id],(err,result)=>{
+                if(err){
+                    console.log(err);
+                    reject({status:"err",state:0,msg:err})
+                }else {
+                    resolve({status:"ok",state:1});
+                }
+            })
+        })
     }
+
 }
 module.exports=manageDao;

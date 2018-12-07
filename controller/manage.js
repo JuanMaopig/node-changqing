@@ -55,6 +55,25 @@ const manage={
         activeName = await activeName;
         hotelName = await hotelName;
         res.send({consume,activeName,hotelName,pageCount});
+    },
+    async addConsume(req,res){
+        console.log(req.body);
+        let room_consume_id = await manageDao.queryConsumeMaxId();
+        let result = await manageDao.addConsume([room_consume_id,req.body.name,parseInt(req.body.hotel_name),req.body.more]);
+        let active=[];
+        let activeLength=req.body.active.length;
+        for(let value of req.body.active){
+            active.push(manageDao.addConsumeActive(room_consume_id,value));
+        }
+        active = Promise.all(active);
+        if(active.length==activeLength){
+            res.send({status:"ok",state:1})
+        }else {
+            res.send({status:"err",state:0})
+        }
+    },
+    async deleteConsume(req,res){
+        let consume=req.body.consume_id;
     }
 }
 
