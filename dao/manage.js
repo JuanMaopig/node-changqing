@@ -135,9 +135,24 @@ const manageDao={
             })
         })
     },
+    //删除套餐表指定记录
     deleteConsume(consume_id){
         return new Promise((resolve, reject) => {
             let sql="delete from room_consume where room_consume_id=?";
+            con.connect(sql,[consume_id],(err,result)=>{
+                if(err){
+                    console.log(err);
+                    reject({status:"err",state:0,msg:err})
+                }else {
+                    resolve({status:"ok",state:1,msg:"套餐已经被删除"});
+                }
+            })
+        })
+    },
+    //删除room_active_consume指定记录
+    deleteConsumeActive(consume_id){
+        return new Promise((resolve, reject) => {
+            let sql="delete from room_active_consume where room_consume_id=?";
             con.connect(sql,[consume_id],(err,result)=>{
                 if(err){
                     console.log(err);
@@ -148,15 +163,33 @@ const manageDao={
             })
         })
     },
-    deleteConsumeActive(consume_id){
+    //删除room_consume_price表指定套餐的记录
+    deleteConsumePrice(consume_id){
         return new Promise((resolve, reject) => {
-            let sql="delete from room_active_consume where room_consume_id=?";
+            let sql="delete from room_consume_type_price where room_consume_id=?";
             con.connect(sql,[consume_id],(err,result)=>{
                 if(err){
                     console.log(err);
                     reject({status:"err",state:0,msg:err})
                 }else {
                     resolve({status:"ok",state:1});
+                }
+            })
+        })
+    },
+    //编辑room_consume表指定记录
+    editConsume(params){
+      return new Promise((resolve) => {
+            let sql="update room_consume set room_consume_name=?," +
+                "hotel_id=?,more=?,price=? where room_consume_id=?";
+            let arr=[params.room_consume_name,params.hotel_id,
+                params.more,params.price,params.room_consume_id];
+            con.connect(sql,arr,(err,result)=>{
+                if(err){
+                    console.log(err);
+                    resolve({status:"err",state:0,msg:err});
+                }else {
+                    resolve({status:"ok",state:1,msg:result})
                 }
             })
         })

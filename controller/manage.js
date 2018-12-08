@@ -18,6 +18,7 @@ const manage={
         }
         res.send({consume,activeName,hotelName});
     },
+    //获取指定长度的套餐
     async getConsume(req,res){
         let startPage=parseInt(req.query.start);
         let length=parseInt(req.query.length);
@@ -56,6 +57,7 @@ const manage={
         hotelName = await hotelName;
         res.send({consume,activeName,hotelName,pageCount});
     },
+    //添加套餐
     async addConsume(req,res){
         console.log(req.body);
         let room_consume_id = await manageDao.queryConsumeMaxId();
@@ -72,8 +74,34 @@ const manage={
             res.send({status:"err",state:0})
         }
     },
+    //删除套餐
     async deleteConsume(req,res){
-        let consume=req.body.consume_id;
+        let consume_id=req.body.consume_id;
+        console.log(consume_id);
+        let delConsumeActive = manageDao.deleteConsumeActive(consume_id);
+        let delConsumePrice = manageDao.deleteConsumePrice(consume_id);
+        let Pro,result;
+        try{
+            Pro = await Promise.all([delConsumeActive,delConsumePrice]);
+            result = await manageDao.deleteConsume(consume_id);
+            res.send(result);
+        }catch (e) {
+            console.log(e);
+            res.send(e);
+        }
+
+    },
+    //更新套餐
+    async editConsume(req,res){
+        console.log(req.body);
+        let consume=req.body.consume;
+        let consume_active=[];
+        for (let value of consume.active_id){
+            consume_active.push(manageDao.addConsumeActive(consume.room_consume_id,value))
+        }
+        let result = await manageDao.editConsume(consume);
+        consume_active = await Promise.all(consume_active);
+        res.send(result);
     }
 }
 
