@@ -115,7 +115,7 @@ const orderModle={
             let arr=[date,date,date,date];
             con.connect(sql,arr,function (err,result) {
                 if(err){
-                    reject(err);
+                    resolve({status:"err",state:0,msg:err});
                 }else {
                     let name="";
                     for (let i=0;i<result.length;i++ ){

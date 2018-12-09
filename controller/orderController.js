@@ -72,19 +72,23 @@ const orderController={
             //查询指定酒店下的所有套餐
             let roomConsume=orderDao.asyncQueryRoomConsume(req.session.order.hotel_id);
             //等待结果返回
+            console.log("1");
             room=await room;
             //将查询到的房间类型号依次做obj_room对象的属性名(id_id)，属性值为该型号下的房间数量
             for(let i=0;i<room.length;i++){
                 name="id_"+room[i].room_type_id;
                 obj_room[name]=room[i].roomNum;
             }
+            console.log("2");
             //遍历入住日期到离店日期之间房间类型是否满足条件
             room_type_id=room_type_id.map(function (value) {
                 orderDao.asyncQueryRoomNum(value)
             })
+            console.log("3");
             for (let i=0;i<arr_date.length;i++){
                 room_type_id[i]=orderDao.asyncQueryRoomNum(obj_room,arr_date[i],num);
             }
+            console.log("4");
             //等待结果返回
             room_type_id = await Promise.all(room_type_id);
 
@@ -92,6 +96,7 @@ const orderController={
             for(let name in obj_room){
                 obj_room[name]=true
             }
+            console.log("5");
             /**
              * 遍历room_type_id对象数组中的每一个对象属性
             * 只要有一天的房型不满足要求则该房型的属性值为false
@@ -103,21 +108,22 @@ const orderController={
                     }
                 }
             }
+            console.log("6");
             //遍历room数组，将不符合条件的记录删除掉
             for (let i=0;i<room.length;i++){
                 if(!obj_room["id_"+room[i].room_type_id]){
                     room.splice(i,1);
                     i--;
                 }
-            }
+            } console.log("7");
             //根据房间类型id遍历查询每个房间类型id下的套餐
             for (let i=0;i<room.length;i++){
                 room[i].consume=orderDao.asyncQueryRoomConsume(room[i].room_type_id);
-            }
+            } console.log("8");
             //根据房间类型id遍历查询每个房间类型id下的设备
             for (let i=0;i<room.length;i++){
                 room[i].device=orderDao.asyncQueryRoomDevice(room[i].room_type_id);
-            }
+            } console.log("9");
             for (let i=0;i<room.length;i++){
                 //等待room[i].consume的值返回并赋值给room[i].consume，循环room[i].consume求出每种套餐对应的套餐内容
                 room[i].consume=await room[i].consume;
@@ -167,20 +173,23 @@ const orderController={
         if(req.session.user){
 
             //将传过来的数据存入order
+            console.log(req.session.order.room.room[0].consume);
+            console.log(coord_n)
+            console.log(coord_i+"i")
             req.session.order.s_tax=req.session.order.tax[coord_i][coord_n];
             req.session.order.s_serverMoney=req.session.order.serverMoney[coord_i][coord_n];
             req.session.order.s_allMoney=req.session.order.allMoney[coord_i][coord_n];
-            req.session.order.s_roomPrice=req.session.order.room[coord_i].room_consume[coord_n].consume_price;
-            req.session.order.s_room_consume_id=req.session.order.room[coord_i].room_consume[coord_n].room_consume_id;
-            req.session.order.s_room_type_id=req.session.order.room[coord_i].room_type_id;
+            req.session.order.s_roomPrice=req.session.order.room.room[coord_i].roomPrice;
+            req.session.order.s_room_consume_id=req.session.order.room.room[coord_i].consume[coord_n].room_consume_id;
+            req.session.order.s_room_type_id=req.session.order.room.room[coord_i].room_type_id;
 
             //查房屋名 并返回给guest.ejs
-            orderDao.requryGuestRoom(req.session.order.room[coord_i].room_type_id,function (obj) {
+            orderDao.requryGuestRoom(req.session.order.s_room_type_id,function (obj) {
                 req.session.order.room_type_name=obj.room_type_name;
                 req.session.order.roomPrice=obj.roomPrice;
 
                 //查套餐名 并返回给guest.ejs
-                orderDao.requryGuestConsume(req.session.order.room[coord_i].room_consume[coord_n].room_consume_id,function (obj) {
+                orderDao.requryGuestConsume(req.session.order.s_room_consume_id,function (obj) {
                     req.session.order.room_consume_name=obj;
 
                     //将信息返给guest.ejs
@@ -201,6 +210,7 @@ const orderController={
         for (let name in req.body){
             req.session.order.UserOrder[name]=req.body[name];
         }
+         console.log( req.session.order.UserOrder)
         if(req.session.order.s_allMoney>100&&req.session.order.s_allMoney<1000){
             req.session.order.subscription=100;
         }
@@ -221,7 +231,7 @@ const orderController={
             orderDao.upOrder(order,function (result) {
                 if(result){
                     req.session.order=null;
-                    res.render("home");
+                    res.render("target",{target:"/user/order.html"});
                 }
             });
         }else {
