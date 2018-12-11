@@ -62,33 +62,33 @@
                     <div class="order-title">订单详情</div>
                     <table class="detail">
                         <tr>
-                            <td>酒店名称：</td>
+                            <td>酒店名称：<%= hotel_name %></td>
                             <td class="hotelName datacontent"></td>
-                            <td>客房数量：</td>
+                            <td>客房数量：<%= room_number %></td>
                             <td class="roomNum datacontent"></td>
                         </tr>
                         <tr>
-                            <td>入离日期：</td>
+                            <td>入离日期：<%= in_date %>到<%= out_date %></td>
                             <td class="checkDate datacontent"></td>
-                            <td>每套成人：</td>
+                            <td>每套成人：<%= adultNum%></td>
                             <td class="adult datacontent"></td>
                         </tr>
                         <tr>
-                            <td>客房类型：</td>
+                            <td>客房类型：<%= room_type_name %></td>
                             <td class="roomType datacontent"></td>
                             <td>入住晚数：</td>
                             <td class="liveDay datacontent"></td>
                         </tr>
                         <tr>
-                            <td>客人姓名：</td>
+                            <td>客人姓名：<%= guest_name%></td>
                             <td class="guestName datacontent"></td>
                             <td>价格类型：</td>
                             <td class="priceType datacontent"></td>
                         </tr>
                         <tr>
-                            <td>手机号码：</td>
+                            <td>手机号码：<%= guest_tel%></td>
                             <td class="tel datacontent"></td>
-                            <td>电子邮件：</td>
+                            <td>电子邮件：<%= guest_email%></td>
                             <td class="email datacontent"></td>
                         </tr>
                     </table>
@@ -96,17 +96,20 @@
                 <div>
                     <div class="order-title w1">套餐内容</div>
                     <table class="detail">
-                        <tr>
-                            <td>-自助式早餐</td>
-                            <td>-自助式午餐</td>
-                            <td>-主厨特制西式晚餐</td>
-                            <td>-山地骑行</td>
-                        </tr>
+                        <!--<tr>-->
+                            <!--<td>-自助式早餐</td>-->
+                            <!--<td>-自助式午餐</td>-->
+                            <!--<td>-主厨特制西式晚餐</td>-->
+                            <!--<td>-山地骑行</td>-->
+                        <!--</tr>-->
+                            <% for(let value of active_consume){ %>
+                                <span><%= value %></span>
+                            <% } %>
                     </table>
                 </div>
                 <div class="operation">
                     <span><b>预计总额：</b></span>
-                    <span class="money">9248</span>
+                    <span class="money"><%= order_price %></span>
                     <span class="money">RMB</span>
                     <a href="pay.html" class="payBtn buttont">付款结算</a>
                     <a href="order.html" class="cancelBtn buttont">取消订单</a>
