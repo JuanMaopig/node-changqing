@@ -2,6 +2,7 @@ const Model=require("../dao/dao");
 const Code=require("../dao/codeController");
 const tools=require("../config/tools");
 const SMS = require("../dao/informationPush").SMS;
+const userDao=require("../dao/userDao");
 const User={
     addUser(req,user){
         req.session.user=user;
@@ -9,21 +10,10 @@ const User={
     exitUser(req){
         delete  req.session.user;
     },
-    queryUser(req,res){
-        let user = req.session.user;
-        if(!user){
-            //有记录，从session中发送基本信息
-            res.render('../user',user);
-        }else {
-            //没有登录，请重新登录
-            res.redirect("../public/html/home");
-        }
-
-    },
     FPUser(req,res){
         let user=req.query.user;
         Model.FWTel(user,function (results) {
-            if(results=="OK"){
+            if(results==="OK"){
                 if(!req.session.Code){
                     req.session.Code={};
                 }
@@ -134,6 +124,30 @@ const User={
         }else {
             res.send("500");
         }
+    },
+    //查询数据库All
+    async queryUser(req,resp){
+        let data=await userDao.query();
+        resp.send(data.data);
+        // console.log(data.data);
+    },
+    //删除用户
+    async deleteUser(req,resp){
+        // console.log("进入控制层");
+        let myId=req.query.myId;
+        // console.log(req);
+        let data=await userDao.delete([myId]);
+        resp.send(data);
+    },
+    //按姓名搜索
+    async searchUser(req,resp){
+        console.log("进入控制层");
+        let name=req.query.searchName;
+        console.log(name);
+        console.log(typeof name);
+        let data=await userDao.search([name]);
+        // console.log(await userDao.search([name]));
+        resp.send(data);
     }
 }
 module.exports=User;

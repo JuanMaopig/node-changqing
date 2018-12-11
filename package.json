@@ -12,6 +12,7 @@
     "@alicloud/mns": "^1.0.0-beta4",
     "aws-sdk": "^2.353.0",
     "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
     "cookie-parser": "^1.4.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
