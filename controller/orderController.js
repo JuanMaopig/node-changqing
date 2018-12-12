@@ -291,6 +291,32 @@ const orderController={
             console.log(err);
             res.send(err);
         })
+    },
+    async queryOrder(req,res){
+       let orderID=req.query.orderID;
+       try{
+           let active = orderDao.asyncQueryAllDevice();
+           let hotel = orderDao.queryAllHotelName();
+           let order = await orderDao.queryOrder(orderID);
+           let active_consume = await orderDao.asyncQueryActiveConsume(order.room_consume_id);
+           let hotel_id = orderDao.getHotelID(order.room_type_id);
+           order.active_consume=[];
+           active = await active;
+           for (let value of active_consume){
+               order.active_consume.push(active[value]);
+           }
+           hotel = await hotel;
+           hotel_id = await hotel_id;
+           order.hotel_name=hotel[hotel_id];
+           order.in_date=order.in_date.format();
+           order.out_date=order.out_date.format();
+           console.log(order)
+           res.render("user1/order-detail",order);
+       }catch (e) {
+           console.log(e);
+           res.send({status:"err",state:404,msg:"服务器数据异常，请稍微再试"})
+       }
+
     }
 
 };

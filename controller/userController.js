@@ -7,8 +7,9 @@ const User={
     addUser(req,user){
         req.session.user=user;
     },
-    exitUser(req){
+    exitUser(req,res){
         delete  req.session.user;
+        res.send({state:1,status:"ok",msg:"退出登录"})
     },
     FPUser(req,res){
         let user=req.query.user;
