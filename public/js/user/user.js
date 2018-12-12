@@ -11,6 +11,14 @@ $(".safe-center").bind("click",function () {
     window.location.href="/user/safe-center.html"
 });
 //跳转退出登录页
-$().bind("click",function () {
-    window.location.href="/user/personal_info.html"
+$(".exit").bind("click",function () {
+    $.get({
+        url:"/user/exitUser",
+        dataType:"json",
+        success(result){
+            if(result.state==1){
+                window.location.href="/home.html"
+            }
+        }
+    })
 });

@@ -137,6 +137,7 @@ const orderModle={
         });
 
     },
+    //查询所有套餐
     asyncQueryAllDevice(){
         return new Promise((resolve, reject) => {
             let sql="select * from device";
@@ -154,6 +155,7 @@ const orderModle={
             })
         })
     },
+    //查询房间套餐
     asyncQueryRoomDevice(room_type_id){
         return new Promise((resolve, reject) => {
             let sql="select device_id from room_type_device where room_type_id=?";
@@ -250,6 +252,9 @@ const orderModle={
             order["order_hao"]=order_hao;
             order["order_time"]=orderTime;
             console.log(order);
+            if(order.contact_phone===""){
+                order.contact_phone=null;
+            }
             sql='insert into payorder (';
             for (let key in order){
                 sql=sql+key+',';
@@ -261,6 +266,7 @@ const orderModle={
             sql+=')';
             value+=')';
             sql=sql+value;
+            console.log(sql)
             con.connect(sql,arr,function (err,result) {
                 if(err){
                     console.log(err);
@@ -348,6 +354,48 @@ const orderModle={
                     resolve(data);
                 } else {
                     reject(err);
+                }
+            })
+        })
+    },
+    //根据订单id查询订单
+    queryOrder(orderID){
+        return new Promise((resolve, reject) => {
+            let sql="select * from payorder where order_id=?";
+            con.connect(sql,[orderID],(err,result)=>{
+              if(err){
+                  resolve({status:"err",state:0,msg:err});
+              }else {
+                  resolve(result[0]);
+              }
+            })
+        })
+    },
+    queryAllHotelName(){
+        return new Promise((resolve, reject) => {
+            let sql="select hotel_id,hotelname as hotel_name from hotel ";
+            con.connect(sql,(err,result)=>{
+                if(err){
+                    reject({status:"err",state:0,msg:err})
+                }else {
+                    let hotel={};
+                    for(let value of result){
+                        hotel[value.hotel_id]=value.hotel_name;
+                    }
+                    resolve(hotel);
+                }
+            })
+
+        })
+    },
+    getHotelID(room_type_id){
+        return new Promise((resolve, reject) => {
+            let sql="select hotel_id from room_type where room_type_id=?";
+            con.connect(sql,[room_type_id],(err,result)=>{
+                if(err){
+                    reject({status:"err",state:0,msg:err})
+                }else {
+                    resolve(result[0].hotel_id)
                 }
             })
         })
