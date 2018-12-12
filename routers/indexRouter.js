@@ -33,6 +33,11 @@ router.get("/user/personal_info.html",user.getPersonal);
 router.get("/user/safe-center.html",user.getSafe);
 router.get("/user/order.html",user.getOder);
 router.get('/user/exitUser',user.exitUser);
+router.post('/user/safe/checkTel.do',user.checkTel);
+router.post('/user/safe/sendNewTelCode.do',user.sendCode);
+router.post('/user/safe/checkCode.do',user.checkCode);
+router.post('/user/safe/checkOldPassword.do',user.checkOldPassword);
+router.post('/user/safe/editPassword.do',user.editPassword)
 /**找回密码**/
 router.post("/findPW.do",user.findPW);
 router.post("/findPWGetCode.do",user.findPWGetCode);
@@ -58,7 +63,7 @@ router.get('/guest.html',orderController.transferGuest);
 
 //guest.html传数据到comfirm.html
 router.post('/comfirm.html',orderController.transferComfirm);
-//提价订单
+//提交订单
 router.get('/booking/order.html',orderController.transferUpOrder);
 router.get('/user/order/detail',orderController.queryOrder)
 module.exports=router;

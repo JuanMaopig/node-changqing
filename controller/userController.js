@@ -149,6 +149,99 @@ const User={
         let data=await userDao.search([name]);
         // console.log(await userDao.search([name]));
         resp.send(data);
+    },
+    checkTel(req,res){
+        if(req.body.oldTel==req.session.user.tel){
+            res.send({status:"ok",state:1})
+        }else {
+            res.send({status:"err",state:0})
+        }
+    },
+    sendCode(req,res){
+        let tel=req.body.newTel;
+        console.log(req.session.user)
+        if(tel!=req.session.user.tel){
+            let code=parseInt(Math.random()*999999).toString().padStart(6,"0");
+            console.log(req.session);
+            if(!req.session.Code){
+                req.session.Code={};
+            }
+            req.session.Code.smscode=[];
+            Code.addCode(req.session.Code.smscode,code);
+            Code.timeoutDeleteCode(req.session.Code.smscode,code);
+            SMS.sendSMS(tel,code,function (results) {
+                console.log(results);
+                if(results==="OK"){
+                    req.session.user.newTel=tel;
+                    res.send({status:"ok",state:1});
+                }
+
+            });
+            console.log("code:");
+            console.log(req.session.smscode);
+        }else {
+            res.send({status:"err",state:2,msg:"新号码不能是原手机号!"});
+        }
+
+    },
+    async checkCode(req,res){
+        if(!req.session.Code){
+            req.session.Code={};
+        }
+        let code=req.body.code;
+        let codes=req.session.Code.smscode;
+        if(await Code.asyncCheckCode(codes,code)){
+            let user=req.session.user;
+            let result= await userDao.editTel({newTel:user.newTel,account_id:user.account_id});
+            if(result.state===1){
+                res.send({status:"ok",state:1,msg:"验证码验证成功!成功更改手机号"});
+            }else {
+                res.send({status:"err",state:2,msg:"验证码验证成功!更改手机号失败"});
+            }
+
+        }else {
+            res.send({status:"err",state:0,msg:"验证码验证失败!"});
+        }
+
+    },
+    async editPassword(req,res){
+        let newPassword=req.body.newPassword;
+        let editPassword = await userDao.editPassword({
+            newPassword:newPassword,
+            account_id:req.session.user.account_id
+        });
+        if(editPassword.state===1){
+            res.send({
+                status:"ok",
+                state:1,
+                msg:"密码修改成功"
+            })
+        }else {
+            res.send({
+                status:"err",
+                state:0,
+                msg:"密码修改失败"
+            })
+        }
+    },
+    async checkOldPassword(req,res){
+        let oldPassword=req.body.oldPassword;
+        let password=await userDao.queryUserPassword(req.session.user.account_id);
+        password=password.data;
+        if(oldPassword==password){
+            res.send({
+                state:1,
+                status:"ok",
+                msg:"密码正确"
+            })
+        }else {
+            res.send({
+                state:0,
+                status:"err",
+                msg:"密码错误"
+            })
+        }
     }
+
 }
 module.exports=User;

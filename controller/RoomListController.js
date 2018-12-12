@@ -34,7 +34,7 @@ const RoomListController={
     },
     //增加房间
     roomNew(req,res) {
-      let params=[req.query.room_id,req.query.door_hao];
+      let params=[req.query.room_id,req.query.door_hao,req.query.room_type_id,req.query.isactivet,req.query.room_state];
       roomlLIstModel.roomNews(params).then(function (data) {
         res.send(data)
       }).catch(function (err) {

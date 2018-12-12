@@ -14,6 +14,7 @@ const session=require("express-session");
 const cookieParser=require("cookie-parser");
 
 const route=require("./routers/indexRouter");
+const undefine =require('./routers/undefine')
 
 const app=express();//执行express的全局函数，返回一个express的服务器对象
 //设置访问的模板格式
@@ -52,6 +53,7 @@ app.use(express.static(__dirname+"/public"));//__dirname指向当前文件根目
 app.use(express.static(__dirname+"/public/html"));
 app.use(express.static(__dirname+"/public/css/booking"));//__dirname指向当前文件根目录
 app.use(express.static(__dirname+"/public/html/booking"));
+app.use(undefine);
 app.set("port",9999);//设置端口
 app.listen(9999,()=>{
     console.log("服务器已启动"+app.get("port"));

@@ -78,9 +78,9 @@
                                 </div>
                                 <div class="right">
                                     <% if(email){%>
-                                    <a href="" class="button">立即绑定</a>
+                                    <span class="button">更改</span>
                                     <%} else{%>
-                                    <span class="button changeTel" >更改</span>
+                                    <span class="button changeTel" >立即绑定</span>
                                     <%}%>
 
                                 </div>
@@ -93,7 +93,7 @@
                                     <p class="font2">可用手机号加密码登录，可通过手机号找回密码</p>
                                 </div>
                                 <div class="right">
-                                    <a href="" class="button" changetype="phone">更改</a>
+                                    <span  class="button changeTel" changetype="phone">更改</span>
                                     <input type="hidden" id="account" value="">
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                     <p class="font2">用于保护账号信息和登录安全</p>
                                 </div>
                                 <div class="right">
-                                    <a href="" class="button">修改</a>
+                                    <span class="button editPassword">修改</span>
                                 </div>
                             </div>
                         </div>
@@ -163,15 +163,15 @@
             <div class="keybox">解绑后，您将无法再使用此手机号进行找回密码及登录相关操作。</div>
             <div class="formgroup">
                 <label>已绑定手机号：</label>
-                <span class="yanzheng-phone-text">176******38</span>
+                <span class="yanzheng-phone-text"><%=phone%></span>
             </div>
             <div class="formgroup">
                 <label>请输入已绑定手机号：</label>
-                <input type="tel" class="tel" placeholder="请输入手机号">
+                <input type="tel" class="tel" id="oldTel" placeholder="请输入手机号">
             </div>
             <div class="formgroup">
-                <a href="" class="button cancel telcancel">取消</a>
-                <a href="" class="button confirm telconfirm">下一步</a>
+                <sapn  class="button cancel telcancel">取消</sapn>
+                <span  class="button confirm telconfirm">下一步</span>
             </div>
         </div>
     </div>
@@ -185,18 +185,18 @@
     <div class="inner">
         <div class="group">
             <span>新手机号码：</span>
-            <input type="tel" placeholder="请输入您的手机号" class="m_input">
+            <input type="tel" id="newTel" placeholder="请输入您的手机号" class="m_input">
         </div>
         <div class="group">
             <span>短信验证码：</span>
             <div class="code">
-                <input type="tel" placeholder="请输入验证码" class="hiddencode">
-                <a href="">发送验证码</a>
+                <input type="tel" id="code" placeholder="请输入验证码" class="hiddencode">
+                <span id="sendCode">发送验证码</span>
             </div>
         </div>
         <div class="group">
-            <a href="" class="button confirm telbindconfirm">确定</a>
-            <a href="" class="button cancel telbindcancel">取消</a>
+            <span class="button confirm telbindconfirm">确定</span>
+            <span class="button cancel telbindcancel">取消</span>>
         </div>
     </div>
 </div>
@@ -209,19 +209,21 @@
     <div class="inner">
         <div class="group">
             <span>输入原始密码：</span>
-            <input type="email" placeholder="输入密码" class="m_input">
+            <input type="email" id="oldPassword" placeholder="输入密码" class="m_input">
+            <br>
+            <span class="msg"></span>
         </div>
         <div class="group">
             <span>输入新密码：</span>
-            <input type="email" placeholder="输入密码" class="m_input">
+            <input type="email" id="newPassword1" placeholder="输入密码" class="m_input">
         </div>
         <div class="group">
             <span>确认新密码：</span>
-            <input type="email" placeholder="再次输入密码" class="m_input">
+            <input type="email" id="newPassword2" placeholder="再次输入密码" class="m_input">
         </div>
         <div class="group">
-            <a href="" class="button confirm pwdconfirm">确定</a>
-            <a href="" class="button cancel pwdcancel">取消</a>
+            <span class="button confirm pwdconfirm">确定</span>
+            <span class="button cancel pwdcancel">取消</span>
         </div>
     </div>
 </div>
@@ -231,7 +233,7 @@
         <div class="group">
             <span>密码修改成功，请重新登录</span>
             <br><br><br>
-            <a href="" class="button confirm pwdconfirm">确定</a>
+            <a href="/login.html" class="button confirm pwdconfirm">确定</a>
         </div>
     </div>
 </div>

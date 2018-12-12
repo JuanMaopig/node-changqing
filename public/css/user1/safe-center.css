@@ -796,3 +796,7 @@
 .pwdmodify .group:last-child{
     text-align: center;
 }
+span .msg{
+    color: red;
+    font-size: 12px;
+}

@@ -284,7 +284,6 @@ const orderModle={
     },
     queryOrderNum(callback){
         let date=tools.getAllDate();
-
         let sql=`select order_hao from payorder where order_hao like '${date}%'`;
         con.connect(sql,[],function (err,result) {
             if(err){

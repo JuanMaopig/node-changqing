@@ -30,6 +30,18 @@ const code= {
         }
         callback(flag);
     },
+    asyncCheckCode(arr,code){
+        return new Promise(resolve => {
+            let flag=false;
+            for (let i = 0; i < arr.length; i++) {
+                if (code = arr[i]) {
+                    flag=true;
+                    break;
+                }
+            }
+            resolve(flag);
+        })
+    }
 
 }
 module.exports=code;

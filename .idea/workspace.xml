@@ -2,20 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="39168667-6951-4513-9ca0-db267aa036ee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/RoomListController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/apartmentController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/houseController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/staffController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/apartmentDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/roomlLIst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/staffDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/userDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/undefine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/orderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/orderController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/RoomListController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/RoomListController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/codeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/codeController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/orderDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/orderDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/userDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/userDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/user1/safe-center.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/user1/safe-center.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/OnSale/lead1.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/OnSale/lead1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/OnSale/lead3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/OnSale/lead3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/OnSale/lead4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/OnSale/lead4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/about-our-resorts/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/about-our-resorts/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/about-our-resorts/sustainability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/about-our.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/about-our.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/booking/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/booking/booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/booking/comfirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/booking/comfirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/booking/guest.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/booking/guest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/booking/option.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/booking/option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/Hiking.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/Hiking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/arrrow.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/arrrow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/biking.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/biking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/bowing.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/bowing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/hiking1.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/hiking1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/indoor-activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/indoor-activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/museum.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/museum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/nature-workshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/nature-workshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/pick-bamboo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/pick-bamboo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/swimming.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/swimming.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/workshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/workshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/xiaoyagarden.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/xiaoyagarden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/activities_more/yoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/activities_more/yoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-ac-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-ac-company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-ac-weddings.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-ac-weddings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-dining.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-dining.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-off.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-off.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-private.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-private.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-room.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle-story.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle-story.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/castle.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/castle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/dining-castle.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/dining-castle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/dining-chinesedining.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/dining-chinesedining.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/dining-dining.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/dining-dining.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/dining-shuiliao.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/dining-shuiliao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/off-mi.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/off-mi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/off-qu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/off-qu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/off-xifei.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/off-xifei.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/room-castle.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/room-castle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/room-shehua.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/room-shehua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/room-xiangfang.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/room-xiangfang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/castle/room-yajing.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/castle/room-yajing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/construction/teambuilding.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/construction/teambuilding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/footer/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/footer/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/footer/footer2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/footer/footer2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/footer1.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/footer1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/CommonProblems.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/CommonProblems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/invest.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/invest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/jobOpportunity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/jobOpportunity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/lease.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/lease.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/park.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/park.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/pond.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/pond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/totality.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/totality.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/jobOpportunity/water.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/jobOpportunity/water.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/retrievePassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/retrievePassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/activities-more.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/activities-more.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-itinerary.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-itinerary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail-oder.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail-oder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/sail/sail.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/sail/sail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/Hiking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/activitycenter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/fishing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/handwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/handwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/happygarden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/horse_riding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/landrover.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/landrover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/nature_handwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/nature_handwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/painting.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/painting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/projectmuseum.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/projectmuseum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/swimming.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/swimming.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/watercure.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/watercure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/white_tea.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/white_tea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/activities_more/yoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/activities_more/yoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/dining-horse.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/dining-horse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/dining-kikaboni.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/dining-kikaboni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/dining-pastoral.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/dining-pastoral.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/dining-shuiliao.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/dining-shuiliao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/dining-taste.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/dining-taste.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery-story.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery-story.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/corporate-activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/corporate-activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/do.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/eat.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/eat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/explore-naked-stables.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/explore-naked-stables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/relax.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/relax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/sleep.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/sleep.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/the_stables.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/the_stables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/gallery/wedding.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/gallery/wedding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/immersive.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/immersive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/off-leQu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/off-leQu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/off-qingti.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/off-qingti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/off-qu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/off-qu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/room-mountainroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/room-mountainroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/room-soilroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/room-soilroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/room-treeroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/room-treeroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-ac-comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-ac-comp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-activities.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-activities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-dining.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-dining.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-off.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-off.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-private.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-private.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-room.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables-story.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables-story.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables_ac_school.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables_ac_school.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/stables/stables_ac_weddings.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/stables/stables_ac_weddings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/teambuilding.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/teambuilding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/user1/order-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/user1/order-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/user1/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/user1/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/user1/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/user1/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/user1/personal_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/user1/personal_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/user1/safe-center.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/user1/safe-center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/user1/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/user1/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/user/safe.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/user/safe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/user/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/user/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/indexRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/indexRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user1/personal_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/user1/personal_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user1/safe-center.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/user1/safe-center.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,103 +160,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="indexRouter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="indexRouter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/indexRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="99" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="55" />
-              <folding>
-                <element signature="e#2253#2475#0" />
-              </folding>
+            <state relative-caret-position="1170">
+              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomListController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/RoomListController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/dao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#131#1302#0" />
-                <element signature="e#1339#1781#0" />
-                <element signature="e#1827#2143#0" />
-                <element signature="e#2185#2473#0" />
-                <element signature="e#2524#2825#0" />
-                <element signature="e#2865#3095#0" />
-                <element signature="e#3137#3436#0" />
-                <element signature="e#3269#3429#0" />
-                <element signature="e#3487#3794#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roomlLIst.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/roomlLIst.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-907">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="houseDao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/houseDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apartmentController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/apartmentController.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="apartmentDao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/apartmentDao.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="userController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="2790">
+              <caret line="222" column="27" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
               <folding>
-                <element signature="e#205#243#0" />
-                <element signature="e#262#303#0" />
-                <element signature="e#586#1044#0" />
-                <element signature="e#1068#1150#0" />
-                <element signature="e#1176#1337#0" />
-                <element signature="e#1359#1516#0" />
-                <element signature="e#1538#1952#0" />
-                <element signature="e#1973#2578#0" />
-                <element signature="e#2606#3316#0" />
-                <element signature="e#3346#3794#0" />
-                <element signature="e#3820#4138#0" />
-                <element signature="e#4339#4513#0" />
-                <element signature="e#4557#4820#0" />
+                <element signature="e#246#284#0" />
+                <element signature="e#307#399#0" />
+                <element signature="e#420#879#0" />
+                <element signature="e#903#985#0" />
+                <element signature="e#1011#1172#0" />
+                <element signature="e#1194#1351#0" />
+                <element signature="e#1224#1296#0" />
+                <element signature="e#1373#1787#0" />
+                <element signature="e#1808#2413#0" />
+                <element signature="e#2441#3151#0" />
+                <element signature="e#3181#3629#0" />
+                <element signature="e#3655#3973#0" />
+                <element signature="e#4019#4131#0" />
+                <element signature="e#4174#4348#0" />
+                <element signature="e#4392#4655#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userDao.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/userDao.js">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/user/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            <state relative-caret-position="3450">
+              <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codeController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/codeController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="safe-center.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/user1/safe-center.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24000">
+              <caret line="800" column="19" selection-start-line="800" selection-start-column="19" selection-end-line="800" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="safe-center.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/user1/safe-center.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/orderController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1860">
+              <caret line="278" column="21" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
+              <folding>
+                <element signature="e#276#1703#0" />
+                <element signature="e#1968#6901#0" />
+                <element signature="e#2030#2083#0" />
+                <element signature="e#6952#8533#0" />
+                <element signature="e#8565#9210#0" />
+                <element signature="e#9784#10258#0" />
+                <element signature="e#10799#11227#0" />
+                <element signature="e#12031#13023#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +253,8 @@
       <file leaf-file-name="orderDao.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/orderDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="353" column="5" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="5" />
+            <state relative-caret-position="-510">
+              <caret line="288" column="20" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="20" />
               <folding>
                 <element signature="e#222#631#0" />
                 <element signature="e#678#1062#0" />
@@ -143,18 +263,25 @@
                 <element signature="e#2628#3205#0" />
                 <element signature="e#3263#3922#0" />
                 <element signature="e#3960#4998#0" />
-                <element signature="e#5025#5559#0" />
-                <element signature="e#5599#6184#0" />
-                <element signature="e#5649#6177#0" />
-                <element signature="e#6221#6529#0" />
-                <element signature="e#6572#7048#0" />
-                <element signature="e#7098#7480#0" />
-                <element signature="e#7516#7800#0" />
-                <element signature="e#7900#8240#0" />
-                <element signature="e#8291#8707#0" />
-                <element signature="e#8745#9878#0" />
-                <element signature="e#9907#10656#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomListController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/RoomListController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -165,6 +292,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -178,7 +306,17 @@
       <find>controller</find>
       <find>Tools</find>
       <find>apartmentController</find>
+      <find>queryAllHotelName</find>
       <find>querystring</find>
+      <find>group</find>
+      <find>更改</find>
+      <find>confirm</find>
+      <find>telbindconfirm</find>
+      <find>telbind</find>
+      <find>修改</find>
+      <find>pwdsuccess</find>
+      <find>pwdconfirm</find>
+      <find>立即</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,15 +333,30 @@
         <option value="$PROJECT_DIR$/dao/manage.js" />
         <option value="$PROJECT_DIR$/config/tools.js" />
         <option value="$PROJECT_DIR$/views/target.html" />
-        <option value="$PROJECT_DIR$/dao/orderDao.js" />
-        <option value="$PROJECT_DIR$/controller/orderController.js" />
-        <option value="$PROJECT_DIR$/controller/userController.js" />
         <option value="$PROJECT_DIR$/controller/houseController.js" />
         <option value="$PROJECT_DIR$/dao/houseDao.js" />
-        <option value="$PROJECT_DIR$/dao/userDao.js" />
         <option value="$PROJECT_DIR$/dao/roomlLIst.js" />
-        <option value="$PROJECT_DIR$/controller/RoomListController.js" />
+        <option value="$PROJECT_DIR$/controller/orderController.js" />
+        <option value="$PROJECT_DIR$/views/user1/order-detail.html" />
+        <option value="$PROJECT_DIR$/public/html/user1/safe-center.html" />
+        <option value="$PROJECT_DIR$/public/html/login.html" />
+        <option value="$PROJECT_DIR$/views/user1/order.html" />
+        <option value="$PROJECT_DIR$/views/user1/user.html" />
+        <option value="$PROJECT_DIR$/public/js/user/safe.js" />
+        <option value="$PROJECT_DIR$/routers/404.js" />
+        <option value="$PROJECT_DIR$/routers/undefine.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/user1/personal_info.html" />
+        <option value="$PROJECT_DIR$/dao/codeController.js" />
+        <option value="$PROJECT_DIR$/public/css/user1/safe-center.css" />
+        <option value="$PROJECT_DIR$/dao/orderDao.js" />
+        <option value="$PROJECT_DIR$/dao/userDao.js" />
+        <option value="$PROJECT_DIR$/controller/userController.js" />
+        <option value="$PROJECT_DIR$/public/js/user/user.js" />
         <option value="$PROJECT_DIR$/routers/indexRouter.js" />
+        <option value="$PROJECT_DIR$/views/user1/safe-center.html" />
+        <option value="$PROJECT_DIR$/controller/RoomListController.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -213,11 +366,6 @@
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-      </GulpfileState>
-    </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
@@ -229,8 +377,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="232" />
-    <option name="y" value="217" />
+    <option name="x" value="36" />
+    <option name="y" value="124" />
     <option name="width" value="1132" />
     <option name="height" value="494" />
   </component>
@@ -240,6 +388,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,12 +404,25 @@
             <path>
               <item name="project3" type="b2602c69:ProjectViewProjectNode" />
               <item name="project3" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project3" type="b2602c69:ProjectViewProjectNode" />
               <item name="project3" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="user1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project3" type="b2602c69:ProjectViewProjectNode" />
@@ -272,11 +434,16 @@
               <item name="project3" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project3" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,14 +454,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\前端\code\part3\project3\dao" />
       <recent name="E:\前端\code\part3\project3\controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\前端\code\part3\project3\dao" />
       <recent name="E:\前端\code\part3\project3\controller" />
     </key>
@@ -341,7 +508,13 @@
       <workItem from="1544272407504" duration="221000" />
       <workItem from="1544348467657" duration="5149000" />
       <workItem from="1544430085958" duration="826000" />
-      <workItem from="1544539613440" duration="2303000" />
+      <workItem from="1544539613440" duration="7548000" />
+      <workItem from="1544574772131" duration="3056000" />
+      <workItem from="1544579120366" duration="47000" />
+      <workItem from="1544579713326" duration="2209000" />
+      <workItem from="1544601367135" duration="2221000" />
+      <workItem from="1544603947147" duration="15720000" />
+      <workItem from="1544621818399" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="网页跳转">
       <created>1544352594619</created>
@@ -357,34 +530,78 @@
       <option name="project" value="LOCAL" />
       <updated>1544352728646</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完整项目的整合">
+      <created>1544542017640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544542017640</updated>
+    </task>
+    <task id="LOCAL-00004" summary="代码的优化">
+      <created>1544547193836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544547193836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="代码优化">
+      <created>1544608648194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544608648194</updated>
+    </task>
+    <task id="LOCAL-00006" summary="代码优化">
+      <created>1544610323055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544610323055</updated>
+    </task>
+    <task id="LOCAL-00007" summary="代码优化">
+      <created>1544610401139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544610401139</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29889000" />
+    <option name="totallyTimeSpent" value="58677000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20684524" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50223213" side_tool="true" weight="0.43862522" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.89136904" visible="true" weight="0.31751227" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.6495536" side_tool="true" weight="0.7201309" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35044643" weight="0.45335516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49776787" weight="0.1391162" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49702382" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -397,257 +614,44 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="网页跳转" />
     <MESSAGE value="优化了订单流程的代码和内存开销，将重复用到的数据放到一个专门的对象中" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化了订单流程的代码和内存开销，将重复用到的数据放到一个专门的对象中" />
+    <MESSAGE value="完整项目的整合" />
+    <MESSAGE value="代码的优化" />
+    <MESSAGE value="代码优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/dao/orderDao.js</url>
-          <line>156</line>
+          <line>158</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/controller/userController.js</url>
-          <line>42</line>
-          <properties lambdaOrdinal="-1" />
+          <line>43</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dao/orderDao.js</url>
+          <line>140</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dao/userDao.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controller/userController.js</url>
+          <line>49</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dao/orderDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="111" column="36" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
-          <folding>
-            <element signature="e#222#631#0" />
-            <element signature="e#678#1062#0" />
-            <element signature="e#1110#1675#0" />
-            <element signature="e#1716#2582#0" />
-            <element signature="e#2628#3205#0" />
-            <element signature="e#3263#3922#0" />
-            <element signature="e#3960#4998#0" />
-            <element signature="e#5025#5559#0" />
-            <element signature="e#5599#6184#0" />
-            <element signature="e#5649#6177#0" />
-            <element signature="e#6221#6529#0" />
-            <element signature="e#6572#7048#0" />
-            <element signature="e#7098#7480#0" />
-            <element signature="e#7516#7800#0" />
-            <element signature="e#7900#8240#0" />
-            <element signature="e#8291#8707#0" />
-            <element signature="e#8745#9878#0" />
-            <element signature="e#9907#10656#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dbConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#69#202#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="191" column="60" selection-start-line="191" selection-start-column="60" selection-end-line="191" selection-end-column="60" />
-          <folding>
-            <element signature="e#155#1096#0" />
-            <element signature="e#1119#1618#0" />
-            <element signature="e#1638#2168#0" />
-            <element signature="e#2203#2800#0" />
-            <element signature="e#2823#3178#0" />
-            <element signature="e#3202#3569#0" />
-            <element signature="e#3613#4095#0" />
-            <element signature="e#4120#4528#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/orderController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6180">
-          <caret line="233" column="38" selection-start-line="233" selection-start-column="38" selection-end-line="233" selection-end-column="38" />
-          <folding>
-            <element signature="e#276#1703#0" />
-            <element signature="e#8565#9210#0" />
-            <element signature="e#9252#9761#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="191" column="60" selection-start-line="191" selection-start-column="60" selection-end-line="191" selection-end-column="60" />
-          <folding>
-            <element signature="e#155#1096#0" />
-            <element signature="e#1119#1618#0" />
-            <element signature="e#1638#2168#0" />
-            <element signature="e#2203#2800#0" />
-            <element signature="e#2823#3178#0" />
-            <element signature="e#3202#3569#0" />
-            <element signature="e#3613#4095#0" />
-            <element signature="e#4120#4528#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dbConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#69#202#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5730">
-          <caret line="191" column="60" selection-start-line="191" selection-start-column="60" selection-end-line="191" selection-end-column="60" />
-          <folding>
-            <element signature="e#155#1096#0" />
-            <element signature="e#1119#1618#0" />
-            <element signature="e#1638#2168#0" />
-            <element signature="e#2203#2800#0" />
-            <element signature="e#2823#3178#0" />
-            <element signature="e#3202#3569#0" />
-            <element signature="e#3613#4095#0" />
-            <element signature="e#4120#4528#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dbConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#69#202#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3180">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/orderController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5940">
-          <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routers/indexRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dbConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/option.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7200">
-          <caret line="240" column="23" selection-start-line="240" selection-start-column="23" selection-end-line="240" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/guest.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/comfirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4830">
-          <caret line="161" column="22" lean-forward="true" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="137" column="29" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
-          <folding>
-            <element signature="e#155#1096#0" />
-            <element signature="e#1119#1618#0" />
-            <element signature="e#1638#2168#0" />
-            <element signature="e#2203#2800#0" />
-            <element signature="e#2823#3178#0" />
-            <element signature="e#3202#3569#0" />
-            <element signature="e#3613#4095#0" />
-            <element signature="e#4120#4528#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aa.html" />
     <entry file="file://$PROJECT_DIR$/views/option.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -676,26 +680,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="191" column="60" selection-start-line="191" selection-start-column="60" selection-end-line="191" selection-end-column="60" />
-          <folding>
-            <element signature="e#155#1096#0" />
-            <element signature="e#1119#1618#0" />
-            <element signature="e#1638#2168#0" />
-            <element signature="e#2203#2800#0" />
-            <element signature="e#2823#3178#0" />
-            <element signature="e#3202#3569#0" />
-            <element signature="e#3613#4095#0" />
-            <element signature="e#4120#4528#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cc.js" />
     <entry file="file://$PROJECT_DIR$/controller/manage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -707,26 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#69#202#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/htmlController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#28#293#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -757,18 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/orderController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="280" column="16" selection-start-line="280" selection-start-column="16" selection-end-line="280" selection-end-column="16" />
-          <folding>
-            <element signature="e#276#1703#0" />
-            <element signature="e#8565#9210#0" />
-            <element signature="e#9252#9761#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/houseController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1968">
@@ -778,40 +727,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/staffDao.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/userDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/orderDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="353" column="5" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="5" />
-          <folding>
-            <element signature="e#222#631#0" />
-            <element signature="e#678#1062#0" />
-            <element signature="e#1110#1675#0" />
-            <element signature="e#1716#2582#0" />
-            <element signature="e#2628#3205#0" />
-            <element signature="e#3263#3922#0" />
-            <element signature="e#3960#4998#0" />
-            <element signature="e#5025#5559#0" />
-            <element signature="e#5599#6184#0" />
-            <element signature="e#5649#6177#0" />
-            <element signature="e#6221#6529#0" />
-            <element signature="e#6572#7048#0" />
-            <element signature="e#7098#7480#0" />
-            <element signature="e#7516#7800#0" />
-            <element signature="e#7900#8240#0" />
-            <element signature="e#8291#8707#0" />
-            <element signature="e#8745#9878#0" />
-            <element signature="e#9907#10656#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/houseDao.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -826,45 +741,6 @@
     <entry file="file://$PROJECT_DIR$/dao/apartmentDao.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#205#243#0" />
-            <element signature="e#262#303#0" />
-            <element signature="e#586#1044#0" />
-            <element signature="e#1068#1150#0" />
-            <element signature="e#1176#1337#0" />
-            <element signature="e#1359#1516#0" />
-            <element signature="e#1538#1952#0" />
-            <element signature="e#1973#2578#0" />
-            <element signature="e#2606#3316#0" />
-            <element signature="e#3346#3794#0" />
-            <element signature="e#3820#4138#0" />
-            <element signature="e#4339#4513#0" />
-            <element signature="e#4557#4820#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#131#1302#0" />
-            <element signature="e#1339#1781#0" />
-            <element signature="e#1827#2143#0" />
-            <element signature="e#2185#2473#0" />
-            <element signature="e#2524#2825#0" />
-            <element signature="e#2865#3095#0" />
-            <element signature="e#3137#3436#0" />
-            <element signature="e#3269#3429#0" />
-            <element signature="e#3487#3794#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao/roomlLIst.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-907">
@@ -872,20 +748,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/RoomListController.js">
+    <entry file="file://$PROJECT_DIR$/dao/dao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        <state relative-caret-position="420">
+          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+          <folding>
+            <element signature="e#131#1302#0" />
+            <element signature="e#1339#1781#0" />
+            <element signature="e#1827#2143#0" />
+            <element signature="e#2185#2473#0" />
+            <element signature="e#2524#2825#0" />
+            <element signature="e#3137#3436#0" />
+            <element signature="e#3269#3429#0" />
+            <element signature="e#3487#3794#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user1/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/user1/order-detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user1/order-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/htmlController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1277">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user1/safe-center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="351" column="4" selection-start-line="351" selection-start-column="4" selection-end-line="356" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user1/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/user/safe.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/undefine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user1/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-927">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user1/personal_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="94" column="68" selection-start-line="94" selection-start-column="68" selection-end-line="94" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user1/order-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="91" column="75" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user1/pay.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/informationPush.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/infoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/codeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+          <folding>
+            <element signature="e#28#293#0" />
+            <element signature="e#314#1466#0" />
+            <element signature="e#1516#1796#0" />
+            <element signature="e#1849#2227#0" />
+            <element signature="e#2282#2911#0" />
+            <element signature="e#2927#3081#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/user1/user.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/userDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/user1/safe-center.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24000">
+          <caret line="800" column="19" selection-start-line="800" selection-start-column="19" selection-end-line="800" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/codeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="222" column="27" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
+          <folding>
+            <element signature="e#246#284#0" />
+            <element signature="e#307#399#0" />
+            <element signature="e#420#879#0" />
+            <element signature="e#903#985#0" />
+            <element signature="e#1011#1172#0" />
+            <element signature="e#1194#1351#0" />
+            <element signature="e#1224#1296#0" />
+            <element signature="e#1373#1787#0" />
+            <element signature="e#1808#2413#0" />
+            <element signature="e#2441#3151#0" />
+            <element signature="e#3181#3629#0" />
+            <element signature="e#3655#3973#0" />
+            <element signature="e#4019#4131#0" />
+            <element signature="e#4174#4348#0" />
+            <element signature="e#4392#4655#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/user/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routers/indexRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="99" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="55" />
+        <state relative-caret-position="1170">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user1/safe-center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/RoomListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/orderController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="278" column="21" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
           <folding>
-            <element signature="e#2253#2475#0" />
+            <element signature="e#276#1703#0" />
+            <element signature="e#1968#6901#0" />
+            <element signature="e#2030#2083#0" />
+            <element signature="e#6952#8533#0" />
+            <element signature="e#8565#9210#0" />
+            <element signature="e#9784#10258#0" />
+            <element signature="e#10799#11227#0" />
+            <element signature="e#12031#13023#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/orderDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="288" column="20" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="20" />
+          <folding>
+            <element signature="e#222#631#0" />
+            <element signature="e#678#1062#0" />
+            <element signature="e#1110#1675#0" />
+            <element signature="e#1716#2582#0" />
+            <element signature="e#2628#3205#0" />
+            <element signature="e#3263#3922#0" />
+            <element signature="e#3960#4998#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
