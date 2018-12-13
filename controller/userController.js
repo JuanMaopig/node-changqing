@@ -34,6 +34,7 @@ const User={
 },
     getPersonal(req,res){
         if(req.session.user){
+            console.log(req.session.user)
             res.render("user1/personal_info",req.session.user);
         }else {
             res.render("login");
@@ -173,6 +174,7 @@ const User={
                 console.log(results);
                 if(results==="OK"){
                     req.session.user.newTel=tel;
+                    console.log(req.session.user)
                     res.send({status:"ok",state:1});
                 }
 
@@ -190,10 +192,12 @@ const User={
         }
         let code=req.body.code;
         let codes=req.session.Code.smscode;
-        if(await Code.asyncCheckCode(codes,code)){
+        if(Code.asyncCheckCode(codes,code)===true){
             let user=req.session.user;
             let result= await userDao.editTel({newTel:user.newTel,account_id:user.account_id});
             if(result.state===1){
+                req.session.user.tel=req.session.user.newTel;
+                req.session.user.phone=tools.phone(req.session.user.tel);
                 res.send({status:"ok",state:1,msg:"验证码验证成功!成功更改手机号"});
             }else {
                 res.send({status:"err",state:2,msg:"验证码验证成功!更改手机号失败"});

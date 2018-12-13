@@ -82,7 +82,7 @@ $(".telbindconfirm").on("click",function () {
             if(result.state==1){
                 $(".telbind").css("display","none");
                 console.log("更改成功！");
-                alert("更改成功")
+                window.location.href="/user/safe-center.html"
             }
         }
     })
@@ -142,3 +142,7 @@ $("span.pwdconfirm").on("click",function () {
         }
     }
 })
+function cancel() {
+    $(".modalblock").css("display","none");
+}
+$(".cancel").on("click",cancel);

@@ -20,7 +20,7 @@
     <div class="header-bar"></div>
     <div class="logo-cont">
         <div class="logo">
-            <a href="stables.html">
+            <a href="/home.html">
                 <i class="iconfont icon-logo"></i>
             </a>
         </div>
@@ -53,7 +53,7 @@
                 <li class="personal_info"><span class="glyphicon glyphicon-user "></span>个人信息</li>
                 <li class="order"><span class="glyphicon glyphicon-list-alt "></span>我的订单</li>
                 <li class="safe-center"><span class="glyphicon glyphicon-lock "></span>账户安全</li>
-                <li><span class="glyphicon glyphicon-log-out"></span>退出登录</li>
+                <li class="exit"><span class="glyphicon glyphicon-log-out"></span>退出登录</li>
             </ul>
         </div>
         <div class="col-md-9 col-xs-12">
@@ -74,12 +74,11 @@
                         <td><span><%=order[i].order_hao%></span></td>
                         <td>
                             <img src="../../images/booking/room/29_180046_Earth_Hut_Round_Bed1.jpg" alt="" width="137px">
-                            <p>裸心谷 2日游 +夯土小屋+“趣”秋野谷套餐</p>
                         </td>
                         <td><b class="ordered">已完成</b></td>
-                        <td>总计: <strong>9286RMB</strong></td>
-                        <td><span>2018-09-10 11:13:18</span></td>
-                        <td><a class="detailBtn buttont" href="/user/order/detail?orderID=<%= order[i].order_id %>">详情</a>&nbsp;&nbsp;&nbsp;<a class="deleteBtn buttont" href="">删除</a></td>
+                        <td>总计: <strong><%=order[i].order_price%>RMB</strong></td>
+                        <td><span><%= order[i].order_time.toLocaleString() %></span></td>
+                        <td><a class="detailBtn buttont" href="/user/order/detail?orderID=<%= order[i].order_id %>">详情</a></td>
                     </tr>
                     <% }%>
                     <% }%>

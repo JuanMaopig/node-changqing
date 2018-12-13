@@ -20,7 +20,7 @@
     <div class="header-bar"></div>
     <div class="logo-cont">
         <div class="logo">
-            <a href="stables.html">
+            <a href="/home.html">
                 <i class="iconfont icon-logo"></i>
             </a>
         </div>
@@ -32,13 +32,13 @@
                 <a href="../home.html">度假村首页</a>
             </li>
             <li class="menu-item">
-                <a href="../stables/stables.html">裸心谷</a>
+                <a href="../stables/stables.html">常青谷</a>
             </li>
             <li class="menu-item">
-                <a href="../castle/castle.html">裸心堡</a>
+                <a href="../castle/castle.html">常青堡</a>
             </li>
             <li class="menu-item">
-                <a href="../sail/sail.html">裸心帆</a>
+                <a href="../sail/sail.html">常青帆</a>
             </li>
             <li class="menu-item">
                 <a href="../jobOpportunity/water.html">即将开业的度假村</a>
@@ -49,6 +49,7 @@
 <div class="container usercenter">
     <div class="row">
         <div class="col-md-3 col-xs-12">
+
             <ul class="leftbar box">
                 <li class="personal_info"><span class="glyphicon glyphicon-user "></span>个人信息</li>
                 <li class="order"><span class="glyphicon glyphicon-list-alt "></span>我的订单</li>
@@ -68,22 +69,22 @@
                             <td class="roomNum datacontent"><%= room_number %></td>
                         </tr>
                         <tr>
-                            <td>入离日期：<%= in_date %>到<%= out_date %></td>
-                            <td class="checkDate datacontent"></td>
-                            <td>每套成人：<%= adultNum%></td>
-                            <td class="adult datacontent"></td>
+                            <td>入离日期：</td>
+                            <td class="checkDate datacontent"><%= in_date %>到<%= out_date %></td>
+                            <td>每套成人：</td>
+                            <td class="adult datacontent"><%= adultNum%></td>
                         </tr>
                         <tr>
                             <td>客房类型：</td>
-                            <td class="roomType datacontent"><%= room_type_name %></td>
+                            <td class="roomType datacontent">夯土小屋</td>
                             <td>入住晚数：</td>
-                            <td class="liveDay datacontent"></td>
+                            <td class="liveDay datacontent"><%= sum_day %></td>
                         </tr>
                         <tr>
                             <td>客人姓名：</td>
                             <td class="guestName datacontent"><%= guest_name%></td>
                             <td>价格类型：</td>
-                            <td class="priceType datacontent"></td>
+                            <td class="priceType datacon发tent">1980/晚</td>
                         </tr>
                         <tr>
                             <td>手机号码：</td>
@@ -96,23 +97,18 @@
                 <div>
                     <div class="order-title w1">套餐内容</div>
                     <table class="detail">
-                        <!--<tr>-->
-                            <!--<td>-自助式早餐</td>-->
-                            <!--<td>-自助式午餐</td>-->
-                            <!--<td>-主厨特制西式晚餐</td>-->
-                            <!--<td>-山地骑行</td>-->
-                        <!--</tr>-->
+                        <tr>
                             <% for(let value of active_consume){ %>
-                                <span><%= value %></span>
+                            <td><%= value %></td>
                             <% } %>
+                        </tr>
                     </table>
                 </div>
                 <div class="operation">
                     <span><b>预计总额：</b></span>
                     <span class="money"><%= order_price %></span>
                     <span class="money">RMB</span>
-                    <a href="pay.html" class="payBtn buttont">付款结算</a>
-                    <a href="order.html" class="cancelBtn buttont">取消订单</a>
+                    <a href="pay.html" class="payBtn buttont">已支付</a>
                 </div>
             </div>
         </div>
@@ -132,17 +128,17 @@
     <div class="container clearfix">
         <div class="retreats visible-xs">
             <div class="opened-resort">
-                <a href="stables.html" target="_blank">裸心谷</a>
+                <a href="stables.html" target="_blank">常青谷</a>
             </div>
         </div>
         <div class="retreats visible-xs">
             <div class="opened-resort">
-                <a href="../castle/castle.html">裸心堡</a>
+                <a href="../castle/castle.html">常青堡</a>
             </div>
         </div>
         <div class="retreats visible-xs">
             <div class="opened-resort">
-                <a href="../sail/sail.html">裸心帆</a>
+                <a href="../sail/sail.html">常青帆</a>
             </div>
         </div>
         <div class="info">
@@ -152,7 +148,7 @@
             </div>
             <div class="footer-cont">
                     <span>
-                        <a href="../about-our.html">关于裸心</a>
+                        <a href="../about-our.html">关于常青</a>
                     </span>
                 <span>
                         <a href="../contact.html">联系我们</a>
@@ -179,20 +175,20 @@
                 <span class="iconfont icon-down"></span>
             </div>
             <div class="footer-cont">
-                <span><a href="../jobOpportunity/water.html">裸心泊</a></span>
-                <span><a href="../jobOpportunity/park.html">裸心园</a></span>
-                <span><a href="../jobOpportunity/pond.html">裸心潭</a></span>
-                <span><a href="../jobOpportunity/wall.html">裸心壁</a></span>
+                <span><a href="../jobOpportunity/water.html">常青泊</a></span>
+                <span><a href="../jobOpportunity/park.html">常青园</a></span>
+                <span><a href="../jobOpportunity/pond.html">常青潭</a></span>
+                <span><a href="../jobOpportunity/wall.html">常青壁</a></span>
             </div>
         </div>
         <div class="products">
             <div class="sub-title">
-                <b>更多裸心项目</b>
+                <b>更多常青项目</b>
                 <span class="iconfont icon-down"></span>
             </div>
             <div class="footer-cont">
-                <span><a href="http://www.nakedhub.com/">裸心社</a></span>
-                <span><a href="http://www.livenaked.com/things">裸心品</a></span>
+                <span><a href="http://www.nakedhub.com/">常青社</a></span>
+                <span><a href="http://www.livenaked.com/things">常青品</a></span>
             </div>
         </div>
         <div class="follow">
@@ -207,7 +203,7 @@
                     <button type="submit">订阅</button>
                 </form>
                 <div class="qrcode"><img src="../../images/qr-code.gif">
-                    <small>扫码或搜索“裸心naked”关注我们</small>
+                    <small>扫码或搜索“常青naked”关注我们</small>
                     <div class="share-wrap">
                         <p class="share">
                             <a href="http://weibo.com/nakedretreats"class="weibo">
@@ -230,7 +226,7 @@
         <i class="iconfont icon-up"></i>
     </a>
     <div class="copyright">
-        <span>裸心酒店管理(上海)有限公司 Copyright 2011-2018 all rights reserved </span>
+        <span>常青酒店管理(上海)有限公司 Copyright 2011-2018 all rights reserved </span>
         <a href="http://www.miitbeian.gov.cn">沪ICP备14028165号-7</a>
         <a href="">
             <img width="30" src="../../images/zhizhao.png" alt="">
