@@ -101,7 +101,7 @@ const Model={
     /*查找用户*/
     findUser(user,callback){
         let arr=[user];
-        let sql="select * from user where username=?";
+        let sql="select * from user where tel=?";
         con.connect(sql,arr,function (err,results) {
             if(!err && results.length>0){
                 callback(results[0]);

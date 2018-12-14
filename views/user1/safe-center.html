@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="../../css/stables/s_footer.css">
     <link rel="stylesheet" href="../../css/user1/user.css">
     <link rel="stylesheet" href="../../css/user1/safe-center.css">
+    <style type="text/css">
+        span.cancel,span.confirm{
+            text-align: center!important;
+        }
+
+    </style>
 </head>
 <body>
 <div class="header">
@@ -209,17 +215,15 @@
     <div class="inner">
         <div class="group">
             <span>输入原始密码：</span>
-            <input type="email" id="oldPassword" placeholder="输入密码" class="m_input">
-            <br>
-            <span class="msg"></span>
+            <input type="password" id="oldPassword" placeholder="输入密码" class="m_input">
         </div>
         <div class="group">
             <span>输入新密码：</span>
-            <input type="email" id="newPassword1" placeholder="输入密码" class="m_input">
+            <input type="password" id="newPassword1" placeholder="输入密码" class="m_input">
         </div>
         <div class="group">
             <span>确认新密码：</span>
-            <input type="email" id="newPassword2" placeholder="再次输入密码" class="m_input">
+            <input type="password" id="newPassword2" placeholder="再次输入密码" class="m_input">
         </div>
         <div class="group">
             <span class="button confirm pwdconfirm">确定</span>
