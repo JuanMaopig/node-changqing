@@ -1,9 +1,9 @@
 长青谷项目
 =
-# node-changqin  
+# node-changqing  
  npn install 安装模块  
  node app.js  运行程序  
- 服务器地址和端口号:127.0.0.1:9999
+ 服务器地址和端口号:localhost:9999
  
  
 项目结构  
